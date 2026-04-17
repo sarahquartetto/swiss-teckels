@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Max",
+    "canton": "Zurich",
+    "birth_date": "2020-05-15",
+    "coat_type": "Poil long",
+    "gender": "Mâle",
+    "color": "Rouge",
+    "photo_url": "https://images.unsplash.com/photo-1604443586815-3272e18c124f?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "2",
+    "name": "Luna",
+    "canton": "Genève",
+    "birth_date": "2019-08-20",
+    "coat_type": "Poil ras",
+    "gender": "Femelle",
+    "color": "Noir et feu",
+    "photo_url": "https://images.unsplash.com/photo-1520087619250-584c0cbd35e8?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Bella",
+    "canton": "Vaud",
+    "birth_date": "2021-03-10",
+    "coat_type": "Poil dur",
+    "gender": "Femelle",
+    "color": "Rouge",
+    "photo_url": "https://images.unsplash.com/photo-1555676407-97678b2fb648?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Charlie",
+    "canton": "Berne",
+    "birth_date": "2018-11-25",
+    "coat_type": "Poil long",
+    "gender": "Mâle",
+    "color": "Noir et feu",
+    "photo_url": "https://images.unsplash.com/photo-1618265341355-d0e2d1fdf26b?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "5",
+    "name": "Sophie",
+    "canton": "Lucerne",
+    "birth_date": "2022-02-14",
+    "coat_type": "Poil ras",
+    "gender": "Femelle",
+    "color": "Rouge",
+    "photo_url": "https://images.unsplash.com/photo-1749823029771-cb83c07b1daf?auto=format&fit=crop&w=1600&q=80"
+  }
+]
+
+
+
+
+

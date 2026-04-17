@@ -1,0 +1,83 @@
+{
+    "name": "Teckel",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Nom du teckel"
+      },
+      "photo_url": {
+        "type": "string",
+        "description": "URL de la photo du teckel"
+      },
+      "canton": {
+        "type": "string",
+        "enum": [
+          "Argovie",
+          "Appenzell Rhodes-Ext\u00e9rieures",
+          "Appenzell Rhodes-Int\u00e9rieures",
+          "B\u00e2le-Campagne",
+          "B\u00e2le-Ville",
+          "Berne",
+          "Fribourg",
+          "Gen\u00e8ve",
+          "Glaris",
+          "Grisons",
+          "Jura",
+          "Lucerne",
+          "Neuch\u00e2tel",
+          "Nidwald",
+          "Obwald",
+          "Saint-Gall",
+          "Schaffhouse",
+          "Schwyz",
+          "Soleure",
+          "Thurgovie",
+          "Tessin",
+          "Uri",
+          "Valais",
+          "Vaud",
+          "Zoug",
+          "Zurich"
+        ],
+        "description": "Canton de r\u00e9sidence"
+      },
+      "birth_date": {
+        "type": "string",
+        "format": "date",
+        "description": "Date de naissance"
+      },
+      "coat_type": {
+        "type": "string",
+        "enum": [
+          "Poil long",
+          "Poil ras",
+          "Poil dur"
+        ],
+        "description": "Type de poil"
+      },
+      "gender": {
+        "type": "string",
+        "enum": [
+          "M\u00e2le",
+          "Femelle"
+        ],
+        "description": "Genre du teckel"
+      },
+      "color": {
+        "type": "string",
+        "description": "Couleur de la robe"
+      },
+      "owner_name": {
+        "type": "string",
+        "description": "Nom du propri\u00e9taire"
+      }
+    },
+    "required": [
+      "name",
+      "canton",
+      "birth_date",
+      "coat_type",
+      "gender"
+    ]
+  }
