@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { base44 } from '@/api/base44Client';
 import { useQuery } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Loader2, Plus } from 'lucide-react';
+import { Search, Loader2, Plus, Dog } from 'lucide-react';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -169,7 +169,7 @@ export default function Home() {
         )}
 
         {/* Empty State */}
-        {!isLoading && filteredTeckels.length === 0 && (
+        {!isLoading && !isError && filteredTeckels.length === 0 && (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}

@@ -3,6 +3,7 @@ import { X } from 'lucide-react';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { API_BASE_URL } from '@/api/base44Client';
 
 const CANTONS = [
   "Argovie", "Appenzell Rhodes-Extérieures", "Appenzell Rhodes-Intérieures",
@@ -16,7 +17,7 @@ const COAT_TYPES = ["Poil long", "Poil ras", "Poil dur"];
 const GENDERS = ["Mâle", "Femelle"];
 
 async function createTeckel(payload) {
-  const res = await fetch('/api/teckels', {
+  const res = await fetch(`${API_BASE_URL}/api/teckels`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),

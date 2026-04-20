@@ -1,7 +1,7 @@
 // API client
 // MongoDB Atlas is accessed through our local API (/api). No JSON fallback.
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '';
 
 class Base44Entity {
   constructor(entityName) {
